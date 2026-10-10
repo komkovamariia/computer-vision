@@ -1,0 +1,39 @@
+{
+  "validation": [
+    {
+      "mode": "frozen",
+      "trainable_parameters": 25290,
+      "accuracy": 0.9777777777777777,
+      "macro_f1": 0.9776908611155186,
+      "nll": 0.07722223669001772
+    },
+    {
+      "mode": "fine_tuned",
+      "trainable_parameters": 28026,
+      "accuracy": 0.9805555555555555,
+      "macro_f1": 0.9804652355069269,
+      "nll": 0.06980225931979628
+    }
+  ],
+  "target_test": [
+    {
+      "mode": "source_without_adaptation",
+      "accuracy": 0.625,
+      "macro_f1": 0.611989433364078,
+      "nll": 2.685867335461836
+    },
+    {
+      "mode": "frozen",
+      "accuracy": 0.9638888888888889,
+      "macro_f1": 0.963715401095968,
+      "nll": 0.11204009522293525
+    },
+    {
+      "mode": "fine_tuned",
+      "accuracy": 0.9611111111111111,
+      "macro_f1": 0.9607683854820989,
+      "nll": 0.10979713100446356
+    }
+  ],
+  "imagenet_run": false
+}

@@ -1,0 +1,14 @@
+{
+  "signs": [
+    {
+      "filename": "train_signs.h5",
+      "drive_id": "14DiS65eiFdcuhPoZAos-_wXcNHQ4Szhy",
+      "sha256": "47480709d99f2ea6ae428ecc491fc6f65ff1d05336736dd859d5565e0ad3cf74"
+    },
+    {
+      "filename": "test_signs.h5",
+      "drive_id": "1buFc8t1hviE6v3RrHqDgpUMsO_6OXuz6",
+      "sha256": "539fb746ed9e947eb244cfca73f4d1b03f9bf5524d609eeed2cd76ddb1b179be"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "ratio_sweep": [
+    {
+      "ratio": 0.6,
+      "matches": 425,
+      "precision_within_3px": 0.9952941176470588
+    },
+    {
+      "ratio": 0.7,
+      "matches": 442,
+      "precision_within_3px": 0.9886877828054299
+    },
+    {
+      "ratio": 0.8,
+      "matches": 462,
+      "precision_within_3px": 0.9718614718614719
+    },
+    {
+      "ratio": 0.9,
+      "matches": 530,
+      "precision_within_3px": 0.8622641509433963
+    }
+  ],
+  "inlier_fraction": 0.9886877828054299,
+  "corner_error_px": 0.0619831383228302
+}

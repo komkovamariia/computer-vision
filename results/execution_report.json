@@ -1,0 +1,85 @@
+{
+  "python": "3.12.14",
+  "engine": "inprocess",
+  "mode": "full",
+  "notebooks": [
+    {
+      "notebook": "01_filters_and_frequency.ipynb",
+      "seconds": 4.18,
+      "code_cells": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "02_sift_and_geometry.ipynb",
+      "seconds": 0.77,
+      "code_cells": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "03_visual_words.ipynb",
+      "seconds": 6.7,
+      "code_cells": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "04_mlp_and_lenet.ipynb",
+      "seconds": 10.59,
+      "code_cells": 7,
+      "status": "passed"
+    },
+    {
+      "notebook": "05_augmentation_and_calibration.ipynb",
+      "seconds": 15.6,
+      "code_cells": 7,
+      "status": "passed"
+    },
+    {
+      "notebook": "06_signs_and_inception.ipynb",
+      "seconds": 56.16,
+      "code_cells": 7,
+      "status": "passed"
+    },
+    {
+      "notebook": "07_transfer_and_frozen_features.ipynb",
+      "seconds": 12.53,
+      "code_cells": 7,
+      "status": "passed"
+    },
+    {
+      "notebook": "08_cell_segmentation.ipynb",
+      "seconds": 77.31,
+      "code_cells": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "09_metric_learning.ipynb",
+      "seconds": 12.96,
+      "code_cells": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "10_denoising_autoencoder.ipynb",
+      "seconds": 8.52,
+      "code_cells": 7,
+      "status": "passed"
+    },
+    {
+      "notebook": "11_super_resolution.ipynb",
+      "seconds": 5.6,
+      "code_cells": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "12_adversarial_sensitivity.ipynb",
+      "seconds": 4.85,
+      "code_cells": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "13_patch_transformer.ipynb",
+      "seconds": 14.9,
+      "code_cells": 7,
+      "status": "passed"
+    }
+  ]
+}

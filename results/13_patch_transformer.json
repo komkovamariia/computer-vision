@@ -1,0 +1,24 @@
+{
+  "validation": [
+    {
+      "model": "cnn",
+      "parameters": 28026,
+      "accuracy": 0.9555555555555556,
+      "macro_f1": 0.9550434172892717,
+      "nll": 0.12343836814076983
+    },
+    {
+      "model": "patch_transformer",
+      "parameters": 18474,
+      "accuracy": 0.9555555555555556,
+      "macro_f1": 0.9560446651293335,
+      "nll": 0.13823717364584379
+    }
+  ],
+  "selected_model": "cnn",
+  "test": {
+    "accuracy": 0.9472222222222222,
+    "macro_f1": 0.9466941322952241,
+    "nll": 0.16145541066647487
+  }
+}

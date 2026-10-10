@@ -1,0 +1,63 @@
+{
+  "validation": [
+    {
+      "model": "plain",
+      "accuracy": 0.9777777777777777,
+      "macro_f1": 0.9779842820558464,
+      "nll": 0.04461308520021039
+    },
+    {
+      "model": "shift_augmented",
+      "accuracy": 0.9833333333333333,
+      "macro_f1": 0.9834748077776038,
+      "nll": 0.061987717029616966
+    }
+  ],
+  "test_comparison": [
+    {
+      "model": "plain",
+      "view": "clean",
+      "accuracy": 0.975,
+      "macro_f1": 0.9747890386926619,
+      "nll": 0.10337983119860333
+    },
+    {
+      "model": "plain",
+      "view": "shifted",
+      "accuracy": 0.625,
+      "macro_f1": 0.611989433364078,
+      "nll": 2.685867335461836
+    },
+    {
+      "model": "shift_augmented",
+      "view": "clean",
+      "accuracy": 0.975,
+      "macro_f1": 0.9746901345788432,
+      "nll": 0.08293084998950197
+    },
+    {
+      "model": "shift_augmented",
+      "view": "shifted",
+      "accuracy": 0.9527777777777777,
+      "macro_f1": 0.9525605601487047,
+      "nll": 0.15283938613896603
+    }
+  ],
+  "temperature": 0.8999999761581421,
+  "calibrated": [
+    {
+      "view": "clean",
+      "ece": 0.01328014493620397,
+      "accuracy": 0.975,
+      "macro_f1": 0.9747890386926619,
+      "nll": 0.11063536224814897
+    },
+    {
+      "view": "shifted",
+      "ece": 0.2889419855578596,
+      "accuracy": 0.625,
+      "macro_f1": 0.611989433364078,
+      "nll": 2.886493027581052
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "validation_comparison": [
+    {
+      "model": "mlp",
+      "parameters": 41802,
+      "accuracy": 0.9638888888888889,
+      "macro_f1": 0.9641687966180713,
+      "nll": 0.08450716309578833
+    },
+    {
+      "model": "lenet",
+      "parameters": 28026,
+      "accuracy": 0.9777777777777777,
+      "macro_f1": 0.9779842820558464,
+      "nll": 0.04461308520021039
+    }
+  ],
+  "selected_model": "lenet",
+  "test": {
+    "accuracy": 0.975,
+    "macro_f1": 0.9747890386926619,
+    "nll": 0.10337983119860333
+  }
+}

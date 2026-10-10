@@ -1,0 +1,20 @@
+{
+  "comparisons": [
+    {
+      "representation": "pixels",
+      "C": 1,
+      "validation_f1": 0.8939725431239121,
+      "test_accuracy": 0.8625,
+      "test_macro_f1": 0.8638969369257704
+    },
+    {
+      "representation": "visual_words",
+      "C": 10,
+      "validation_f1": 0.7234387032021941,
+      "test_accuracy": 0.7375,
+      "test_macro_f1": 0.739624990844503
+    }
+  ],
+  "images": 800,
+  "vocabulary_size": 32
+}

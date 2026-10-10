@@ -1,0 +1,25 @@
+{
+  "validation": [
+    {
+      "model": "lenet",
+      "parameters": 27982,
+      "accuracy": 0.8148148148148148,
+      "macro_f1": 0.8109660769337453,
+      "nll": 0.5113129976299562
+    },
+    {
+      "model": "inception",
+      "parameters": 7206,
+      "accuracy": 0.7129629629629629,
+      "macro_f1": 0.7104851666475475,
+      "nll": 0.8155491446592116
+    }
+  ],
+  "selected_model": "lenet",
+  "test": {
+    "accuracy": 0.85,
+    "macro_f1": 0.8467739530811027,
+    "nll": 0.5004514937283282
+  },
+  "train_images": 864
+}
