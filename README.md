@@ -39,12 +39,12 @@ Open the notebooks with JupyterLab from this repository. They find the repositor
 
 ## Recorded runs
 
-The notebook outputs, [figures](figures) and [result files](results) come from executed full runs. [Execution details](docs/validation.md) record the environment, checks and limits. Generator sample grids are visual inspections; they are not presented as benchmark-quality generation results. New experiments must be executed again to produce their measurements.
+The notebook outputs, [figures](figures) and [result files](results) come from executed full runs. [Execution details](docs/validation.md) record the environment, checks and limits. New experiments must be executed again to produce their measurements.
 
-Training and validation use separate subsets. Validation selects checkpoints and thresholds. Final test metrics are recorded after those choices. In the ECG projects, available data support a beat-level split; unseen-patient generalization is not measured.
+Training and validation use separate subsets. Validation selects checkpoints and thresholds. Final test metrics are recorded after those choices. The cell segmentation experiment uses synthetic images; its scores do not establish performance on microscopy data.
 
 ## Code and sources
 
-Models and reusable training code live in `src`. Tests cover tensor shapes, numerical invariants and saved-model agreement. `python -m ruff check src tests scripts` checks unused names and common errors; formatting uses four-space indentation. Comments explain decisions where the code alone would leave an ambiguity.
+Models and reusable training code live in `src`. Tests cover tensor shapes, numerical invariants and saved-model agreement. `python -m ruff check src tests scripts` checks unused names and common errors.
 
 The project sequence draws on UniPd Machine Learning for Human Data, UniPd Computer Vision and Cognitive Systems and HSE deep learning exercises. [Source mapping](docs/sources.md) connects each project to the specific course topic. These are independent implementations. Original course solutions, datasets and saved teaching-model weights are not redistributed here. Data access is documented in [datasets.md](docs/datasets.md).
